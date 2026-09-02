@@ -1,0 +1,15 @@
+{
+  "name": "api-migration-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally outdated project for demonstrating an API migration agent",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "openai": "^3.3.0",
+    "stripe": "^8.0.0"
+  }
+}
